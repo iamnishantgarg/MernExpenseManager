@@ -12,7 +12,7 @@ export const Transcation = ({ t }) => {
         {sign}
         {Math.abs(t.amount)}$
       </span>
-      <button className="delete-btn" onClick={() => deleteTranscation(t.id)}>
+      <button className="delete-btn" onClick={() => deleteTranscation(t._id)}>
         x
       </button>
     </li>
